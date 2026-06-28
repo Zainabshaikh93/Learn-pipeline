@@ -1,0 +1,82 @@
+# setting file
+# just like whatsapp setting 
+# whatsapp setting
+# dark Mode: no
+# notification: on
+# Language : urdu
+
+# connverted to yaml language
+# Dark_Mode : true
+# Notification : true
+# language : urdu
+
+#Step 2 : yaml 3 main Rules
+# Rule No 1 -- key : value
+# name : Saylani
+# city : Karachi
+# batch : 01
+# campus : Gulshan-e-Iqbal
+
+# Rule No 2 -- indentation (spaces)
+#school:
+  #name : Saylani
+  #city : Karachi  
+  #teacher : 
+    #name : Mr. Ali
+    #subject : Computer Science   
+  
+  #Rule No 3 -- list (-se)
+  #students:
+    #- name : Ali
+    #- name : Ahmed
+    #- name : Ayesha  
+
+  #step 3 --comman data types
+  #text
+  #name : "Saylani" 
+
+  #Number 
+  # student : 50
+
+  #true/ false
+  #active : true
+
+  #list
+  # courses:
+    #- name : Web Development
+    #- name : Mobile App Development
+    #- name : Data Science
+
+  #nested
+  #school:
+   # name : Saylani
+   # city : Karachi
+   # teacher:
+   #   name : Mr. Ali
+   #   subject : Computer Science
+   
+#Github Actions Yaml
+# name
+name: Saylani
+
+#when start
+on:
+  push:
+    branches: 
+    - main 
+
+#jobs
+job:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello World
+        run: echo "Hello World"    
+
+
+
+
+
+
+
+
