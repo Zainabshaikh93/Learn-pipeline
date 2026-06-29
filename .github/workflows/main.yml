@@ -1,0 +1,17 @@
+name: My First Pipeline
+
+# یہ روبوٹ تب جاگے گا جب بھی آپ کوڈ میں کوئی تبدیلی کریں گی
+on: [push]
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+
+    steps:
+    # یہ سٹیپ آپ کے کوڈ کو روبوٹ کے پاس لے کر آتا ہے
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    # یہ سٹیپ اسکرین پر میسج پرنٹ کرے گا
+    - name: Run Greeting
+      run: echo "Hello! My automated robot is working perfectly!"
