@@ -57,21 +57,21 @@
    
 #Github Actions Yaml
 # name
-name: Saylani
+#name: Saylani
 
 #when start
-on:
-  push:
-    branches: 
-    - main 
+#on:
+#  push:
+#    branches: 
+#    - main 
 
 #jobs
-job:
-  my-job:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Hello World
-        run: echo "Hello World"    
+#job:
+#  my-job:
+#    runs-on: ubuntu-latest
+#    steps:
+ #     - name: Hello World
+ #       run: echo "Hello World"    
 
 
 
