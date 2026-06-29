@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print your name
-        run: echo "zainab"     
+        run: echo "zainab Shaikh"     
 
       - name: today Date
         run: date
