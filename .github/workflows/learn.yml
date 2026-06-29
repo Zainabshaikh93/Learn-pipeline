@@ -13,7 +13,7 @@ jobs:
         run: echo "zainab"     
 
       - name: today Date
-        run: Date
+        run: date
 
       - name: file list
         run: ls  
